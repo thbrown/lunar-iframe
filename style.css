@@ -1,0 +1,61 @@
+html {
+  font-size: 17px;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+p {
+  font-size: 2rem;
+  margin-bottom: -10px !important;
+}
+
+small {
+  font-weight: lighter;
+  color: gray;
+  margin: 0;
+}
+
+.flex {
+  padding-top: 15px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.App {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  width: 25rem;
+  margin: 1vh auto;
+}
+
+.input-range__label--max {
+  display: none;
+}
+
+.input-range__label--min {
+  display: none;
+}
+
+.input-range__label-container {
+  left: -50%;
+  position: relative;
+  display: none;
+}
+
+.slider-label {
+  display:-webkit-box;
+  display:flex;
+  -webkit-box-pack:justify;
+          justify-content:space-between;
+}
